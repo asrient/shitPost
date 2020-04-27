@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>🎃</title>
+    <link rel="stylesheet" href="/common.css" type="text/css">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+</head>
+
+<body>
+    <br />
+    <br />
+    <div class="center" id="hero">💩</div>
+    <div class="center size-l ink-dark base-light">Shit Post Generator</div>
+    <br />
+    <form action="/post" method="POST">
+        <div class="center">
+            <input placeholder="key" id="inp" name="key">
+            <input type="submit" style="display: none;" id="send" placeholder="Send">
+            <label for="send">
+                <div class="ink-white size-xs base-regular" id="send_label">Go</div>
+            </label>
+        </div>
+    </form>
+
+</body>
+
+</html>
+<style>
+    body {
+        min-height: 100vh;
+    }
+
+    #hero {
+        font-size: 2.5rem;
+    }
+
+    #send_label {
+        background-color: rgb(0, 202, 51);
+        border-radius: 1rem;
+        padding: 0.3rem 0.6rem;
+        margin: 0.5rem 0rem;
+        margin-left: 1rem;
+    }
+
+    #send_label:hover {
+        background-color: rgb(42, 250, 0);
+    }
+
+    #inp {
+        margin: 0px;
+        background: rgb(232, 232, 232);
+        border-radius: 0.7rem;
+        border: none;
+        padding: 0.6rem 0.3rem;
+    }
+</style>
